@@ -185,6 +185,29 @@ header li {
   display: flex;
 }
 
-.general-section article {
+.general-section figure {
+  height: 35rem;
+  width: 49rem;
+}
+
+.general-section figure img {
+  height: 100%;
   width: 100%;
+}
+
+#astronauts figure {
+  order: 2;
+}
+
+#relaxation-area figure {
+  background-color: midnightblue;
+}
+
+#swan figure {
+  order: 2;
+}
+
+.general-section article {
+  width: 50%;
+  align-self: center;
 }
