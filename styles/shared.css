@@ -213,25 +213,25 @@ header li {
 /* PRICES */
 
 
-#traveloptions {
+#travel-options {
   width: 50%;
   height: 50rem;
   margin: 2rem auto;
   text-align: center;
 }
 
-#traveloptions h2 {
+#travel-options h2 {
   margin-top: 10rem;
 }
 
-#traveloptions ul {
+#travel-options ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
   margin-top: 10rem;
 }
 
-#traveloptions ul a {
+#travel-options ul a {
   display: inline-block;
 }
 
