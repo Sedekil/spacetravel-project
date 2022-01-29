@@ -1,0 +1,20 @@
+/* MOBILE NAVBAR */
+@media (max-width: 48rem) {
+  #main-header nav {
+    display: none;
+  }
+
+  .menu-btn {
+    display: flex;
+  }
+
+  #main-header h1 {
+    font-size: 1.5rem;
+  }
+
+  /* MEDIAQUERIES */
+
+  #travel-options ul {
+    grid-template-columns: 100%;
+  }
+}

@@ -16,25 +16,52 @@
     <title>Space Travel</title>
   </head>
   <body>
-    <header>
-      <a href="" id="logo"><h1><pre>      Jester Space Travels</pre></h1></a>
+    <header id="main-header">
+      <a href="index.html" id="logo"><h1><pre>      Jester Space Travels</pre></h1></a>
       <nav>
         <ul>
-          <li><a href="">infos</a></li>
-          <li><a href="">features</a></li>
-          <li><a href="">prices</a></li>
+          <li><a href="#infos">infos</a></li>
+          <li><a href="#mars">features</a></li>
+          <li><a href="#travel-options">prices</a></li>
           <li><a href="">forms&sub</a></li>
           <li><a href="">footer</a></li>
         </ul>
       </nav>
-    </header>
-    <main>
 
+      <a href="#side-drawer" class="menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+    </header>
+
+    <aside id="side-drawer">
+      <header>
+        <a href="#" class="menu-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </header>
+      <nav>
+        <ul>
+          <ul>
+            <li><a href="#infos">infos</a></li>
+            <li><a href="#mars">features</a></li>
+            <li><a href="#travel-options">prices</a></li>
+            <li><a href="">forms&sub</a></li>
+            <li><a href="">footer</a></li>
+          </ul>
+        </ul>
+      </nav>
+    </aside>
+
+    <main>
       <section id="start">
-        <aside class="content-shared">
+        <article class="content-shared">
           <h2>Jester Space Travels: Holidays on Mars,</h2>
           <h3>proudly presents a true adventure, a flight to the mars.</h3>
-      </aside>
+        </article>
       <video autoplay muted loop id="starVid">
             <source src="images/space.mp4" type="video/webm">
       </video>

@@ -63,6 +63,65 @@ header li {
   margin-right: 1.5rem;
 }
 
+/* MOBILE NAVBAR */
+
+
+.menu-btn {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  display: none;
+}
+
+.menu-btn span {
+  width: 100%;
+  height: 3px;
+  background-color: black;
+}
+
+#side-drawer {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(29, 26, 27);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  z-index: 10;  /*only there because the header have a z-index of 10*/
+}
+
+#side-drawer:target {
+  display: block;
+}
+
+#side-drawer header {
+  height: 5rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 5%;
+}
+
+#side-drawer ul {
+  list-style: none;
+  margin: 0;
+  padding: 4rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#side-drawer li {
+  margin: 1rem 0;
+}
+
+#side-drawer a {
+color: rgb(253, 239, 213);
+font-size: 2rem;
+}
+
 
 /* SECTION START */
 
@@ -74,7 +133,7 @@ header li {
   margin-top: 5vh;
 }
 
-#start aside {
+#start article {
   text-align: center;
   margin-top: 12rem;
 }
