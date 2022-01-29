@@ -254,8 +254,9 @@ font-size: 2rem;
 }
 
 .general-section figure img {
-  height: 100%;
   width: 100%;
+  height: auto;
+  background-color: midnightblue;
 }
 
 #astronauts figure,
@@ -264,7 +265,7 @@ font-size: 2rem;
 }
 
 #relaxation-area figure {
-  background-color: midnightblue;
+  margin-bottom: 23rem;
 }
 
 .general-section article {
