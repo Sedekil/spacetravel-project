@@ -1,6 +1,5 @@
 /* LAYOUT & TYPOGRAPHY & SETUP */
 
-
 *,
 *::after,
 *::before {
@@ -13,7 +12,7 @@
 }
 
 html {
-  font-size: 62.5%;  /* 62.5% = 10px ,do not change*/
+  font-size: 62.5%; /* 62.5% = 10px ,do not change*/
 }
 
 body {
@@ -21,20 +20,23 @@ body {
   box-sizing: border-box;
   line-height: 1.6;
   text-rendering: optimizeLegibility;
-  font-size: 1.6rem;  /* 16px / 0.1 rem = 1px, if the html font size is set to 62.5% */
-  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem; /* 16px / 0.1 rem = 1px, if the html font size is set to 62.5% */
+  font-family: "Roboto", sans-serif;
 }
 
-  h1 pre, h2, h3 {
-  font-family: 'Vidaloka', serif;
+h1 pre,
+h2,
+h3 {
+  font-family: "Vidaloka", serif;
 }
 
+.inline-control {
+  display: flex;
+}
 
 /* HEADER */
 
-
 header {
-  display: flex;
   justify-content: space-between;
   z-index: 10;
   position: fixed;
@@ -49,28 +51,20 @@ header #logo {
   margin-left: 1rem;
 }
 
-header nav, a {
+header nav {
   height: 5vh;
-  display: flex;
   align-items: center;
-}
-
-header ul {
-  display: flex;
 }
 
 header li {
   margin-right: 1.5rem;
 }
 
-
 /* MOBILE NAVBAR */
-
 
 .menu-btn {
   width: 3rem;
   height: 3rem;
-  display: flex;
   flex-direction: column;
   justify-content: space-around;
   display: none;
@@ -79,18 +73,16 @@ header li {
 .menu-btn span {
   width: 100%;
   height: 3px;
-  background-color: black;
 }
 
 #side-drawer {
   width: 100%;
   height: 100%;
-  background-color: rgb(29, 26, 27);
   position: fixed;
   top: 0;
   left: 0;
   display: none;
-  z-index: 10;  /*only there because the header have a z-index of 10*/
+  z-index: 10; /*only there because the header have a z-index of 10*/
 }
 
 #side-drawer:target {
@@ -99,21 +91,17 @@ header li {
 
 #side-drawer header {
   height: 5rem;
-  display: flex;
   justify-content: flex-end;
   align-items: center;
   padding: 0 5%;
 }
 
 #side-drawer h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 #side-drawer ul {
-  list-style: none;
-  margin: 0;
   padding: 4rem 1rem;
-  display: flex;
   flex-direction: column;
   align-items: center;
 }
@@ -123,13 +111,10 @@ header li {
 }
 
 #side-drawer a {
-color: rgb(253, 239, 213);
-font-size: 2rem;
+  font-size: 2rem;
 }
 
-
 /* SECTION START */
-
 
 #start {
   overflow: hidden;
@@ -146,17 +131,16 @@ font-size: 2rem;
   height: 100vh;
   width: 100%;
   z-index: -10;
-  object-position:center;
-  object-fit:cover;
+  object-position: center;
+  object-fit: cover;
 }
 
-#spaceart {
+#space-art {
   z-index: 5;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
-  color: white;
+  transform: translate(-50%, -50%);
   height: 100vh;
   width: 100%;
   display: grid;
@@ -175,7 +159,7 @@ font-size: 2rem;
   margin-top: 40rem;
   top: 50%;
   left: 50%;
-  transform: translate(-70%,75%);
+  transform: translate(-70%, 75%);
 }
 
 .upper-space {
@@ -186,32 +170,24 @@ font-size: 2rem;
   width: 100%;
   z-index: 5;
   position: absolute;
-  color: white;
 }
 
 .align-content {
   top: 90%;
   left: 55%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 
-.btn {
-  display: flex;
-}
-
-.btn li {
+.btn-start li {
   margin-right: 1.5rem;
 }
 
-
 /* SECTION ICONS */
-
 
 #infos {
   width: 70%;
   height: 50rem;
   margin: 0 auto;
-  background-color: grey;
 }
 
 #infos article {
@@ -224,7 +200,6 @@ font-size: 2rem;
 }
 
 #infos #info-container {
-  display: flex;
   justify-content: space-evenly;
   align-items: center;
   margin-top: 10rem;
@@ -238,14 +213,11 @@ font-size: 2rem;
   width: 7rem;
 }
 
-
 /* GENERAL SECTIONS includes mars, astronauts, relaxation-area, swan and tulip */
-
 
 .general-section {
   width: 70%;
   margin: 0 auto;
-  display: flex;
 }
 
 .general-section figure {
@@ -256,7 +228,6 @@ font-size: 2rem;
 .general-section figure img {
   width: 100%;
   height: auto;
-  background-color: midnightblue;
 }
 
 #astronauts figure,
@@ -273,14 +244,12 @@ font-size: 2rem;
   align-self: center;
 }
 
-
 /* PRICES */
-
 
 #travel-options {
   width: 50%;
-  height: 50rem;
-  margin: 2rem auto;
+  height: 40rem;
+  margin: auto;
   text-align: center;
 }
 
@@ -292,14 +261,73 @@ font-size: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
-  margin-top: 10rem;
+  margin-top: 5rem;
 }
 
 #travel-options ul a {
   display: inline-block;
 }
 
+/* FORM */
 
-/* FORM&SUBSCRIPTION */
+form {
+  width: 80rem;
+  margin: auto;
+  padding: 1rem;
+}
 
+fieldset {
+  margin-bottom: 1rem;
+  border: none;
+}
 
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  font: inherit;
+  padding: 0.5rem;
+  width: 100%;
+  display: block;
+}
+
+textarea {
+  resize: none;
+}
+
+#terms,
+.reply,
+.reply li {
+  align-items: center;
+}
+
+button {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+}
+
+#form-actions {
+  text-align: right;
+}
+
+.inline-control label {
+  margin: 0;
+  margin-left: 0.5rem;
+}
+
+.inline-control input {
+  width: auto;
+}
+
+/* FOOTER */
+
+#footer {
+  height: 50rem;
+  justify-content: space-evenly;
+  align-items: center;
+}

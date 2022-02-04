@@ -16,10 +16,12 @@
     <title>Space Travel</title>
   </head>
   <body>
-    <header id="main-header">
-      <a href="index.html" id="logo"><h1><pre>      Jester Space Travels</pre></h1></a>
-      <nav>
-        <ul>
+    <header class="inline-control" id="main-header">
+      <a href="index.html" id="logo"
+        ><h1><pre>      Jester Space Travels</pre></h1></a
+      >
+      <nav class="inline-control">
+        <ul class="inline-control">
           <li><a href="#infos">infos</a></li>
           <li><a href="#mars">features</a></li>
           <li><a href="#travel-options">prices</a></li>
@@ -28,7 +30,7 @@
         </ul>
       </nav>
 
-      <a href="#side-drawer" class="menu-btn">
+      <a href="#side-drawer" class="menu-btn inline-control">
         <span></span>
         <span></span>
         <span></span>
@@ -36,7 +38,7 @@
     </header>
 
     <aside id="side-drawer">
-      <header>
+      <header class="inline-control">
         <a href="#" class="menu-btn">
           <span></span>
           <span></span>
@@ -44,15 +46,15 @@
         </a>
       </header>
       <nav>
-        <ul>
-          <ul>
-            <li><a href="#start" ><h2>Jester Space Travels</h2></a></li>
-            <li><a href="#infos">infos</a></li>
-            <li><a href="#mars">features</a></li>
-            <li><a href="#travel-options">prices</a></li>
-            <li><a href="#form">forms&sub</a></li>
-            <li><a href="#footer">footer</a></li>
-          </ul>
+        <ul class="inline-control">
+          <li>
+            <a href="#start"><h2>Jester Space Travels</h2></a>
+          </li>
+          <li><a href="#infos">infos</a></li>
+          <li><a href="#mars">features</a></li>
+          <li><a href="#travel-options">prices</a></li>
+          <li><a href="#form">forms&sub</a></li>
+          <li><a href="#footer">footer</a></li>
         </ul>
       </nav>
     </aside>
@@ -63,142 +65,356 @@
           <h2>Jester Space Travels: Holidays on Mars,</h2>
           <h3>proudly presents a true adventure, a flight to the mars.</h3>
         </article>
-      <video autoplay muted loop id="starVid">
-            <source src="images/space.mp4" type="video/webm">
-      </video>
-        <figure id="spaceart">
+        <video autoplay muted loop id="starVid">
+          <source src="images/space.mp4" type="video/webm" />
+        </video>
+        <figure id="space-art">
           <figure class="space upper-space">
-            <img src="/images/bright-star1.png" alt="a star in the deep space">
+            <img
+              src="/images/bright-star1.png"
+              alt="a star in the deep space"
+            />
           </figure>
           <figure class="space starship">
-            <img src="/images/starship-amsterdam.png" alt="the starship amsterdam">
+            <img
+              src="/images/starship-amsterdam.png"
+              alt="the starship amsterdam"
+            />
           </figure>
           <figure class="space upper-space">
-            <img src="/images/mars.png" alt="the red planet called mars">
+            <img src="/images/mars.png" alt="the red planet called mars" />
           </figure>
           <figure class="space">
-            <img src="/images/earth.png" alt="our homeworld planet earth">
+            <img src="/images/earth.png" alt="our homeworld planet earth" />
           </figure>
           <figure class="space">
-            <img src="/images/bright-star2.png" alt="another star in the deep space">
+            <img
+              src="/images/bright-star2.png"
+              alt="another star in the deep space"
+            />
           </figure>
           <figure class="space">
-            <img src="/images/bright-star3.png" alt="another shiny star in the deep space">
+            <img
+              src="/images/bright-star3.png"
+              alt="another shiny star in the deep space"
+            />
           </figure>
         </figure>
-      <nav class="align-content content-shared">
-          <ul class="btn">
-              <li><a href="#"><button>book a flight</button></a></li>
-              <li><a href="#"><button>info</button></a></li>
+        <nav class="align-content content-shared">
+          <ul class="btn-start inline-control">
+            <li>
+              <a href="#"><button class="btn-empty">book a flight</button></a>
+            </li>
+            <li>
+              <a href="#"><button class="btn-empty">info</button></a>
+            </li>
           </ul>
-      </nav>
+        </nav>
       </section>
 
       <section id="infos">
         <article>
-          <h2><img class="jester" src="/images/jester-logo.png" alt="logo">Are you ready?</h2> 
+          <h2>
+            <img class="jester" src="/images/jester-logo.png" alt="logo" />Are
+            you ready?
+          </h2>
           <h3>for your greatest adventure in your life?</h3>
         </article>
-        <figure id="info-container">
+        <figure class="inline-control" id="info-container">
           <figure>
-            <img class="info-img" src="/images/Astronaut.png" alt="An astronaut in his suit.">
-            <p>travel through space <br>and be an astronaut.</p>
+            <img
+              class="info-img"
+              src="/images/Astronaut.png"
+              alt="An astronaut in his suit."
+            />
+            <p>travel through space <br />and be an astronaut.</p>
           </figure>
           <figure>
-            <img class="info-img" src="/images/mars.png" alt="the planet mars, ready to explore">
-            <p>Explore the mars, this<br> is the new frontier.</p>
+            <img
+              class="info-img"
+              src="/images/mars.png"
+              alt="the planet mars, ready to explore"
+            />
+            <p>
+              Explore the mars, this<br />
+              is the new frontier.
+            </p>
           </figure>
           <figure>
-            <img class="info-img" src="/images/starship-amsterdam.png" alt="the starship amsterdam a flying city">
-            <p>enjoy a luxurious crossing<br> to mars in a flying city. </p>
+            <img
+              class="info-img"
+              src="/images/starship-amsterdam.png"
+              alt="the starship amsterdam a flying city"
+            />
+            <p>
+              enjoy a luxurious crossing<br />
+              to mars in a flying city.
+            </p>
           </figure>
-        </figure>       
+        </figure>
       </section>
 
-      <section class="general-section" id="mars">
-          <figure>
-            <img src="/images/Mars-orbit.png" alt="Mars the red planet.">
-          </figure>
-          <article>
-            <h2>Mars our neighbor, the red planet</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum cum necessitatibus nisi, inventore non et, ipsa rerum, quo accusamus sit delectus est laudantium! Temporibus, totam! Ullam id quidem natus deserunt.</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora amet, provident dignissimos suscipit consequuntur veritatis debitis ipsa numquam nesciunt ullam reprehenderit vero quos commodi esse maiores, dolorum, vel laudantium vitae.</p>
-          </article>
-      </section>
-
-      <section class="general-section" id="astronauts">
+      <section class="general-section inline-control" id="mars">
         <figure>
-          <img src="/images/Astronauts.jpg" alt="Two happy astronauts.">
+          <img src="/images/Mars-orbit.png" alt="Mars the red planet." />
+        </figure>
+        <article>
+          <h2>Mars our neighbor, the red planet</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum cum
+            necessitatibus nisi, inventore non et, ipsa rerum, quo accusamus sit
+            delectus est laudantium! Temporibus, totam! Ullam id quidem natus
+            deserunt.
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora
+            amet, provident dignissimos suscipit consequuntur veritatis debitis
+            ipsa numquam nesciunt ullam reprehenderit vero quos commodi esse
+            maiores, dolorum, vel laudantium vitae.
+          </p>
+        </article>
+      </section>
+
+      <section class="general-section inline-control" id="astronauts">
+        <figure>
+          <img src="/images/Astronauts.jpg" alt="Two happy astronauts." />
         </figure>
         <article>
           <h2>Experience being an astronaut</h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum cum necessitatibus nisi, inventore non et, ipsa rerum, quo accusamus sit delectus est laudantium! Temporibus, totam! Ullam id quidem natus deserunt.</p>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora amet, provident dignissimos suscipit consequuntur veritatis debitis ipsa numquam nesciunt ullam reprehenderit vero quos commodi esse maiores, dolorum, vel laudantium vitae.</p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum cum
+            necessitatibus nisi, inventore non et, ipsa rerum, quo accusamus sit
+            delectus est laudantium! Temporibus, totam! Ullam id quidem natus
+            deserunt.
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora
+            amet, provident dignissimos suscipit consequuntur veritatis debitis
+            ipsa numquam nesciunt ullam reprehenderit vero quos commodi esse
+            maiores, dolorum, vel laudantium vitae.
+          </p>
         </article>
-    </section>
+      </section>
 
-    <section class="general-section" id="relaxation-area">
-      <figure>
-        <img src="/images/starship-amsterdam.png" alt="The starship amsterdam with a huge relaxation-area">
-      </figure>
-      <article>
-        <h2>A fantastic relaxation area on your journey to the mars</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum cum necessitatibus nisi, inventore non et, ipsa rerum, quo accusamus sit delectus est laudantium! Temporibus, totam! Ullam id quidem natus deserunt.</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora amet, provident dignissimos suscipit consequuntur veritatis debitis ipsa numquam nesciunt ullam reprehenderit vero quos commodi esse maiores, dolorum, vel laudantium vitae.</p>
-      </article>
-  </section>
+      <section class="general-section inline-control" id="relaxation-area">
+        <figure>
+          <img
+            src="/images/starship-amsterdam.png"
+            alt="The starship amsterdam with a huge relaxation-area"
+          />
+        </figure>
+        <article>
+          <h2>A fantastic relaxation area on your journey to the mars</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum cum
+            necessitatibus nisi, inventore non et, ipsa rerum, quo accusamus sit
+            delectus est laudantium! Temporibus, totam! Ullam id quidem natus
+            deserunt.
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora
+            amet, provident dignissimos suscipit consequuntur veritatis debitis
+            ipsa numquam nesciunt ullam reprehenderit vero quos commodi esse
+            maiores, dolorum, vel laudantium vitae.
+          </p>
+        </article>
+      </section>
 
-    <section class="general-section" id="swan">
-      <figure>
-        <img src="/images/Swan.jpg" alt="A swan is swimming.">
-      </figure>
-      <article>
-        <h2>Alfred our mascot in the pond in the relaxation area</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum cum necessitatibus nisi, inventore non et, ipsa rerum, quo accusamus sit delectus est laudantium! Temporibus, totam! Ullam id quidem natus deserunt.</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora amet, provident dignissimos suscipit consequuntur veritatis debitis ipsa numquam nesciunt ullam reprehenderit vero quos commodi esse maiores, dolorum, vel laudantium vitae.</p>
-      </article>
-  </section>
+      <section class="general-section inline-control" id="swan">
+        <figure>
+          <img src="/images/Swan.jpg" alt="A swan is swimming." />
+        </figure>
+        <article>
+          <h2>Alfred our mascot in the pond in the relaxation area</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum cum
+            necessitatibus nisi, inventore non et, ipsa rerum, quo accusamus sit
+            delectus est laudantium! Temporibus, totam! Ullam id quidem natus
+            deserunt.
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora
+            amet, provident dignissimos suscipit consequuntur veritatis debitis
+            ipsa numquam nesciunt ullam reprehenderit vero quos commodi esse
+            maiores, dolorum, vel laudantium vitae.
+          </p>
+        </article>
+      </section>
 
-  <section class="general-section" id="tulip">
-    <figure>
-      <img src="/images/Tulips.jpg" alt="Tulips as far as you can see.">
-    </figure>
-    <article>
-      <h2>there are also tulips in the relaxation area, a feast for the eyes</h2>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum cum necessitatibus nisi, inventore non et, ipsa rerum, quo accusamus sit delectus est laudantium! Temporibus, totam! Ullam id quidem natus deserunt.</p>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora amet, provident dignissimos suscipit consequuntur veritatis debitis ipsa numquam nesciunt ullam reprehenderit vero quos commodi esse maiores, dolorum, vel laudantium vitae.</p>
-    </article>
-</section>
+      <section class="general-section inline-control" id="tulip">
+        <figure>
+          <img src="/images/Tulips.jpg" alt="Tulips as far as you can see." />
+        </figure>
+        <article>
+          <h2>
+            there are also tulips in the relaxation area, a feast for the eyes
+          </h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum cum
+            necessitatibus nisi, inventore non et, ipsa rerum, quo accusamus sit
+            delectus est laudantium! Temporibus, totam! Ullam id quidem natus
+            deserunt.
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora
+            amet, provident dignissimos suscipit consequuntur veritatis debitis
+            ipsa numquam nesciunt ullam reprehenderit vero quos commodi esse
+            maiores, dolorum, vel laudantium vitae.
+          </p>
+        </article>
+      </section>
 
-<section id="travel-options">
-  <h2>hire or purchase</h2>
-  <ul>
-    <li>
-      <article>
-        <h3>hire</h3>
-        <p>blablabla</p>
-        <p>blablabla</p>
-        <a href="#">Hire</a>
-      </article>
-    </li>
-    <li>
-      <h3>purchase</h3>
-      <p>blablabla</p>
-      <p>111111,11</p>
-      <a href="#">Purchase</a>
-    </li>
-  </ul>
-</section>
+      <section id="travel-options">
+        <h2>hire or purchase</h2>
+        <ul>
+          <li>
+            <article>
+              <h3>hire</h3>
+              <p>blablabla</p>
+              <p>blablabla</p>
+              <a href="#">Hire</a>
+            </article>
+          </li>
+          <li>
+            <article>
+              <h3>purchase</h3>
+              <p>blablabla</p>
+              <p>111111,11</p>
+              <a href="#">Purchase</a>
+            </article>
+          </li>
+        </ul>
+      </section>
 
+      <section id="form">
+        <form action="" method="GET">
+          <fieldset>
+            <legend>Personalia:</legend>
+            <ul>
+              <li>
+                <label for="username">Your Name</label>
+                <input type="text" name="username" id="username" required />
+              </li>
+              <li>
+                <label for="address">Your address</label>
+                <input type="text" name="address" id="address" required />
+              </li>
+              <li>
+                <label for="email">Your E-Mail address</label>
+                <input type="email" name="email" id="email" required />
+              </li>
+              <li>
+                <label for="phone">Your Phone Number</label>
+                <input
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  required
+                  minlength="5"
+                />
+              </li>
+              <li>
+                <label for="message">Your Message</label>
+                <textarea
+                  name="message"
+                  id="message"
+                  required
+                  minlength="10"
+                  maxlength="200"
+                  rows="6"
+                ></textarea>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <label for="channel"
+              >What are you interested in, a job or a luxury cruise?</label
+            >
+            <select name="channel" id="channel" required>
+              <option value="search">Job</option>
+              <option value="word-of-mouth">Luxury cruise</option>
+            </select>
+          </fieldset>
 
+          <fieldset class="reply">
+            <legend>How should we reply?</legend>
+            <ul>
+              <li class="inline-control">
+                <input
+                  type="radio"
+                  name="reply"
+                  id="reply-phone"
+                  value="phone"
+                  required
+                />
+                <label for="reply-phone">Call me</label>
+              </li>
+              <li class="inline-control">
+                <input
+                  type="radio"
+                  name="reply"
+                  id="reply-email"
+                  value="email"
+                  required
+                />
+                <label for="reply-email">Send me an email</label>
+              </li>
+              <li class="inline-control">
+                <input
+                  type="radio"
+                  name="reply"
+                  id="reply-mail"
+                  value="mail"
+                  required
+                />
+                <label for="reply-mail">Mail</label>
+              </li>
+            </ul>
+          </fieldset>
 
+          <fieldset class="inline-control reply">
+            <input
+              type="checkbox"
+              name="accept-terms"
+              id="accept-terms"
+              required
+            />
+            <label id="terms" class="inline-control" for="accept-terms"
+              >Accept <a class="inline-control" href="">Terms</a>
+            </label>
+          </fieldset>
 
-      <section id="form">form&subscription</section>
-
-
-
-
+          <fieldset id="form-actions">
+            <button type="reset" class="btn-empty">Clear</button>
+            <button type="submit" class="btn-filled">Submit</button>
+          </fieldset>
+        </form>
+      </section>
     </main>
-    <footer id="footer">footer&contact</footer>
+
+    <footer id="footer" class="inline-control">
+      <nav>
+        <ul>
+          <li><a href="https://www.facebook.com/">facebook</a></li>
+          <li><a href="https://www.Twitter.com/">twitter</a></li>
+          <li><a href="https://www.instagram.com/">instagram</a></li>
+          <li><a href="#terms">terms</a></li>
+          <li><a href="#cookielaw">cookielaw</a></li>
+        </ul>
+      </nav>
+      <nav>
+        <ul>
+          <li><a href="#infos">infos</a></li>
+          <li><a href="#mars">features</a></li>
+          <li><a href="#travel-options">prices</a></li>
+          <li><a href="#form">forms&sub</a></li>
+          <li><a href="#footer">footer</a></li>
+        </ul>
+      </nav>
+      <ul>
+        <li>jester space travels</li>
+        <li>copyright text</li>
+      </ul>
+    </footer>
   </body>
 </html>

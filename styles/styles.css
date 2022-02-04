@@ -1,0 +1,89 @@
+/* LAYOUT & TYPOGRAPHY & SETUP */
+
+/* HEADER */
+
+/* MOBILE NAVBAR */
+.menu-btn span {
+  background-color: black;
+}
+
+#side-drawer {
+  background-color: rgb(29, 26, 27);
+}
+
+#side-drawer a {
+  color: rgb(253, 239, 213);
+}
+
+/* SECTION START */
+
+#spaceart {
+  color: white;
+}
+
+.content-shared {
+  color: white;
+}
+
+/* SECTION ICONS */
+
+#infos {
+  background-color: grey;
+}
+
+/* GENERAL SECTIONS includes mars, astronauts, relaxation-area, swan and tulip */
+
+.general-section figure img {
+  background-color: midnightblue;
+}
+
+/* PRICES */
+
+/* FORM */
+
+form {
+  background-color: rgb(246, 250, 255);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}
+
+label {
+  color: rgb(66, 76, 697);
+}
+input,
+textarea,
+select {
+  border: 1px solid rgb(152, 159, 184);
+  border-radius: 4px;
+}
+
+input:focus,
+textarea:focus {
+  background-color: rgb(217, 227, 247);
+}
+
+button {
+  border: 1px solid rgb(51, 67, 100);
+  border-radius: 4px;
+}
+
+.btn-filled {
+  background-color: rgb(51, 67, 100);
+  color: white;
+}
+
+.btn-empty {
+  background-color: transparent;
+  color: rgb(51, 67, 100);
+}
+
+.btn-filled:hover {
+  background-color: rgb(69, 89, 129);
+  border-color: rgb(69, 89, 129);
+}
+
+.btn-empty:hover {
+  background-color: rgb(208, 215, 230);
+}
+
+/* FOOTER */
